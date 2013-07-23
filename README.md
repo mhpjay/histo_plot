@@ -15,7 +15,9 @@ increment: increment count for bins (make zeros non-zero for visual purposes)
 compress: ignore zero-count bins when printing
 
 Example: python histo.py
+
 Output: 
+
 -1.3280483031 - -1.07939910003:      *                        
 -1.07939910003 - -0.830749896958:    *                        
 -0.830749896958 - -0.582100693886:   *                        
