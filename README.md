@@ -3,9 +3,9 @@ histo_plot
 
 Simple python function to print a histogram to the shell. Not many features right now, but gets the job done in most cases.
 
-Otherwise, import and use gen_histo. Requires numpy.
+Otherwise, import and use print_histo. Requires numpy.
 
-gen_histo(vector, nbins = 1, increment = 0, compress = True, round_increment = 0)
+print_histo(vector, nbins = 1, increment = 0, compress = True, round_increment = 0)
 
 vector: vector of numbers, used to generate histogram  
 nbins: number of bins to use in histogram  

@@ -3,7 +3,7 @@ import random
 import os
 import sys
 
-def gen_histo(vector, nbins=1, increment = 0, compress = True, round_label = 0):
+def print_histo(vector, nbins=1, increment = 0, compress = True, round_label = 0):
     rows, columns = os.popen('stty size', 'r').read().split()
     bins,edges = numpy.histogram(vector, bins=nbins)
     prepend = {1:'+', 0:' ', -1:''}
@@ -36,8 +36,8 @@ def print_columns(*args):
 
 def main(argv):
     example = [random.normalvariate(1, .5) for x in xrange(1000000)]
-    gen_histo(example,20, 1, False, 10)
-    gen_histo(example,20, 1, False, 0)
+    print_histo(example,20, 1, False, 10)
+    print_histo(example,20, 1, False, 0)
     
 if __name__ == '__main__':
     main(sys.argv[1:])
