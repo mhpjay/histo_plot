@@ -16,9 +16,6 @@ compress: ignore zero-count bins when printing
 
 Example: python histo.py
 
-Output: 
-
-
 -1.35330875828 - -1.12303859386:    *                       
 -1.12303859386 - -0.892768429437:   *                       
 -0.892768429437 - -0.662498265016:  *                       
