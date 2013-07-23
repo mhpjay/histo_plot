@@ -11,7 +11,7 @@ vector: vector of numbers, used to generate histogram
 nbins: number of bins to use in histogram  
 increment: increment count for bins (make zeros non-zero for visual purposes)  
 compress: ignore zero-count bins when printing  
-round_increment: whether or not to round bin labels for cleaner output. Default of 0 means no rounding, must be input > 0
+round_increment: whether or not to round bin labels for cleaner output. Default of 0 means no rounding, must be > 0
 
 Run an example with python histo.py: will show a graph with rounded bins and one without
 Example: python histo.py
