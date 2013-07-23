@@ -15,5 +15,3 @@ increment: increment count for bins (make zeros non-zero for visual purposes)
 compress: ignore zero-count bins when printing
 
 Example: python histo.py
-
-Output: 
