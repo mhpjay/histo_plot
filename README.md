@@ -1,7 +1,7 @@
 histo_plot
 ==========
 
-Simple python function to print a graphical histogram to the shell. Not many features right now, but gets the job done in most cases.
+Simple python function to print a histogram to the shell. Not many features right now, but gets the job done in most cases.
 
 For an example, run histo.py with no arguments to print out a normal distribution. 
 
