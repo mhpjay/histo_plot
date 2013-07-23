@@ -9,9 +9,9 @@ Otherwise, import and use gen_histo. Requires numpy.
 
 gen_histo(vector, nbins = 1, increment = 0, compress = True)
 
-vector: vector of numbers, used to generate histogram
-nbins: number of bins to use in histogram
-increment: increment count for bins (make zeros non-zero for visual purposes)
+vector: vector of numbers, used to generate histogram  
+nbins: number of bins to use in histogram  
+increment: increment count for bins (make zeros non-zero for visual purposes)  
 compress: ignore zero-count bins when printing
 
 Example: python histo.py
