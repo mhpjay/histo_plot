@@ -1,7 +1,8 @@
 histo_plot
 ==========
 
-Simple python function to print a histogram to the shell. Not many features right now, but gets the job done in most cases.
+Simple python function to print a histogram to the shell. Useful when working remotely with no X forwarding.  
+Not many features right now, but gets the job done in most cases.
 
 Otherwise, import and use print_histo. Requires numpy.
 
